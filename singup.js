@@ -5,6 +5,8 @@ document.getElementById("signup-form").addEventListener("submit", function (e) {
     const username= document.getElementById("signup-username").value;
     const password = document.getElementById("signup-password").value;
 
+     console.log(username)
+     console.log(password)
     // Validate email
     if (!email.includes("@")) {
         alert("Please enter a valid email address.");
